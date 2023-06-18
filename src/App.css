@@ -223,10 +223,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
-`
 
 /* Banner Css */
-/* .banner {
+.banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/images/banner-bg.png');
@@ -293,7 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
-} */
+}
 
 /* Skills Css */
 /* .skill {
