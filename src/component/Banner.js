@@ -56,7 +56,7 @@ const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hello I'm Er. Samrat.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ " Electronics Engineer", " FrontEnd Developer", " AI Enthusiast", " Linux Nerd" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hello I'm Er. Samrat.`}  <span className="txt-rotate" dataPeriod="1000" data-rotate='[ " Electronics Engineer", " FrontEnd Developer", " AI Enthusiast", " Linux Nerd" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Are you looking for a personable and passionate technology enthusiast with a solid foundation in information technology? Look no further! With two years of hands-on experience and a fresh perspective on the latest developments, I am eager to leverage my technical skills to take my career to new heights.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

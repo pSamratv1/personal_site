@@ -295,7 +295,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Skills Css */
-/* .skill {
+.skill {
+  margin-top: 60px;
   padding: 0 0 50px 0;
   position: relative;
 }
@@ -306,8 +307,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 50px;
   margin-top: -60px;
 }
-.skill h2 {
-	font-size: 45px;
+.skill h5 {
+	font-size: 30px;
 	font-weight: 700;
 }
 .skill p {
@@ -332,7 +333,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
-} */
+}
 
 /* Projects Css */
 /* .project {
