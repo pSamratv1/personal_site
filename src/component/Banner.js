@@ -14,6 +14,7 @@ const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate=['Electronics Engineer', 'FrontEnd Developer', 'AI Enthusiast', 'Linux Nerd'];
     const[text,setText]= useState('');
+    const [index, setIndex] = useState(1); 
     const [delta,setDelta]= useState(200- Math.random() * 100);
     const period = 2000;
 
@@ -32,18 +33,23 @@ const Banner = () => {
 
         setText(updatedText);
 
-        if (isDeleting){
-            setDelta(prevDelta => prevDelta / 2);
+        if (isDeleting) {
+          setDelta(prevDelta => prevDelta / 2);
         }
-        if (!isDeleting  &&  updatedText === fullText){
-            setIsDeleting(true);
-            setDelta(period);
-
-        }
-        else if(isDeleting && updatedText === ''){
-            setIsDeleting(false);
-            setLoopNum(loopNum+1);
-            setDelta(500);
+    
+        if (!isDeleting && updatedText === fullText) {
+          setIsDeleting(true);
+          setIndex(prevIndex => prevIndex - 1);
+          setDelta(period);
+        } 
+        else if (isDeleting && updatedText === '') {
+          setIsDeleting(false);
+          setLoopNum(loopNum + 1);
+          setIndex(1);
+          setDelta(500);
+        } 
+        else {
+          setIndex(prevIndex => prevIndex + 1);
         }
     }
 
