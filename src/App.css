@@ -336,7 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Projects Css */
-/* .project {
+.project {
   padding: 80px 0;
   position: relative;
   background-color: black;
@@ -459,10 +459,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
-} */
+}
 
-/* Projects Css */
-/* .contact {
+/* Contact Css */
+.contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
@@ -531,10 +531,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
-} */
+}   
 
 /* Footer Css */
-/* .footer {
+.footer {
   padding: 0 0 50px 0;
   background-image: url('./assets/images/footer-bg.png');
   background-position: center center;
@@ -610,7 +610,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-} */
+}
 
 /* Already present Css*/
 .App {

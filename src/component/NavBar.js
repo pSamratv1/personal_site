@@ -11,7 +11,6 @@ import icon3 from '../assets/images/nav-icon3.svg';
 
 
 
-
 function NavBar() {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -33,7 +32,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
         <img src={logo} alt='Logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
