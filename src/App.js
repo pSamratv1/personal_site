@@ -11,6 +11,7 @@ import MailChimpForm from './component/MailChimpForm';
 
 function App() {
   return (
+    // eslint-disable-next-line
     <>
     <NavBar />
     <Banner />

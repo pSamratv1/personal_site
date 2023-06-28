@@ -17,11 +17,12 @@ const Banner = () => {
     const [index, setIndex] = useState(1); 
     const [delta,setDelta]= useState(200- Math.random() * 100);
     const period = 2000;
-
+        // eslint-disable-next-line max-len
     useEffect(() => {
         let ticker = setInterval(() => {
+  
           tick();
-        }, delta);
+        }, delta );
     
         return () => { clearInterval(ticker) };
       }, [text])
