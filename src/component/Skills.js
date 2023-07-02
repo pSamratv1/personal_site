@@ -52,38 +52,38 @@ const Skills = () => {
                     <p>I am experienced with and possess some skillset on these feilds of technologies</p>
                     <Carousel responsive={responsive} infinite={true} className='owl-carousel owl-theme skill-slider'>
                         <div className='item'>
-                            <img src={html} alt="Image" />
+                            <img src={html} alt="Image1" />
                             <h5>HTML</h5>
                         </div>
                         <div className='item'>
-                            <img src={css} alt="Image" />
+                            <img src={css} alt="Image2" />
                             <h5>CSS</h5>
                         </div><div className='item'>
-                            <img src={js} alt="Image" />
+                            <img src={js} alt="Image3" />
                             <h5>JavaScript</h5>
                         </div>
                         <div className='item'>
-                            <img src={react} alt="Image" />
+                            <img src={react} alt="Image4" />
                             <h5>ReactJs</h5>
                         </div>
                         <div className='item'>
-                            <img src={python} alt="Image" />
+                            <img src={python} alt="Image5" />
                             <h5>Python / Django</h5>
                         </div>
                         <div className='item'>
-                            <img src={c} alt="Image" />
+                            <img src={c} alt="Image6" />
                             <h5>Conceptual Programming</h5>
                         </div>
                         <div className='item'>
-                            <img src={machine} alt="Image" />
+                            <img src={machine} alt="Image7" />
                             <h5>Machine Learning</h5>
                         </div>
                         <div className='item'>
-                            <img src={linux} alt="Image" />
+                            <img src={linux} alt="Image8" />
                             <h5>Linux</h5>
                         </div>
                         <div className='item'>
-                            <img src={window} alt="Image" />
+                            <img src={window} alt="Image9" />
                             <h5>Window</h5>
                         </div>
                     </Carousel>
@@ -91,7 +91,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-      <img src={colorsharp} className='background-image-left' alt='Image'/> 
+      <img src={colorsharp} className='background-image-left' alt='backgroundImage'/> 
     </section>
   )
 }

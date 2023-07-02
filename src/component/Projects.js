@@ -88,7 +88,7 @@ const Projects = () => {
                 </Col>
             </Row>
         </Container>
-      <img className='background-image-right' src={colorsharp2} />
+      <img className='background-image-right' src={colorsharp2} alt="background_image"/>
     </section>
   )
 }
