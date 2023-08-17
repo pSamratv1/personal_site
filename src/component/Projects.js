@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Tab, Row, Col, Nav} from 'react-bootstrap';
-import projImg1 from "../assets/images/project-img1.png";
-import projImg2 from "../assets/images/project-img2.png";
-import projImg3 from "../assets/images/project-img3.png";
+import projImg3 from "../assets/images/reacthooks-img.png";
+import projImg2 from "../assets/images/Movieportal-2-img.png";
+import projImg1 from "../assets/images/Portfolio-site-img.png";
 import ProjectCards from './ProjectCards';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +11,45 @@ import colorsharp2 from '../assets/images/color-sharp2.png';
 const Projects = () => {
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "Portfolio Site",
+            description: "Description about my skills and learning",
             imgUrl: projImg1,
+            codeUrl:"https://github.com/CODE-SAMRAT/personal_site.git",
+            
+
         },
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "IMDB style portal",
+            description: "All about Movies and Tv shows",
             imgUrl: projImg2,
+            codeUrl:"https://github.com/CODE-SAMRAT/MovieInfoPortal.git",
         },
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "Basics of React Hooks",
+            description: "Real Life useage of React Hooks",
             imgUrl: projImg3,
+            codeUrl:"https://github.com/CODE-SAMRAT/Reacthooks.git",
         },
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "Portfolio Site",
+            description: "Description about my skills and learning",
             imgUrl: projImg1,
+            codeUrl:"https://github.com/CODE-SAMRAT/personal_site.git",
+
         },
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "IMDB style portal",
+            description: "All about Movies and Tv shows",
             imgUrl: projImg2,
+            codeUrl:"https://github.com/CODE-SAMRAT/MovieInfoPortal.git",
+
         },
         {
-            title: "Business Startup",
-            description: "Design and Development",
+            title: "Basics of React Hooks",
+            description: "Real Life useage of React Hooks",
             imgUrl: projImg3,
+            codeUrl:"https://github.com/CODE-SAMRAT/Reacthooks.git",
+
         },
     ]
   return (
